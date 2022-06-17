@@ -3,9 +3,12 @@
     padding: 0;
 }
 nav{
-    background-color: rgb(26, 31, 31);
+    /* margin-left: 20%; */
+    position: relative;
+    float: right;
+    background-color: black;
     height: 60px;
-    width: 100%;
+    width: 80%;
 }
 nav ul{
     float: right;
@@ -20,18 +23,21 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     color:beige;
-    padding: 15px;
+    padding: 20px;
 }
 nav ul li a:hover{
-    font-size: 30px;
+    font-size: 21px;
     color: rgb(0, 247, 255);
 }
 #port {
+    background-color: black;
     color: white;
-    font-size: 46px;
+    width: 20%;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
     font-weight: bold;
     font-family: cursive;
-    padding: -3px;
     margin-right: 492px
 }
 .main {
@@ -131,7 +137,8 @@ nav ul li a:hover{
     width: 50%;
     height: 75vh;
     padding: 10px 35px;
-    padding-top: 41px;  
+    padding-top: 41px;
+    
 }
 
 .contactform h1 {
@@ -173,22 +180,28 @@ margin: -6px 8px;
     width: 50%;
     height: 85vh;
 }
+
+
 .contact_details h2{
     margin-top: 60px;
     font-family:cursive;
     font-weight: bolder;
-    font-size: 35px;   
+    font-size: 35px;
+    
 }
 .contact_details ul li{
     margin: 25px;
     text-decoration: none;
     font-family: cursive;
+    
 }
-footer{ 
+footer{
+       
     background:black;
     color: #fff;
     text-align: center;
-    height: 40px;  
+    height: 40px;
+    
 }
 
 footer span{
